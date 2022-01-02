@@ -2,13 +2,18 @@
 
 ## Start (after Setup):
 conda activate conda3venv
+
 python3 gpu_runner.py
+
 python3 gpu_kernel.py
 
 ## Setup:
 conda create --name conda3venv
+
 conda activate conda3venv
+
 conda install cudatoolkit
+
 conda install numba
 
 ## The actual scripts were taken from Stack Overflow:
